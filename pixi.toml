@@ -1,0 +1,13 @@
+[workspace]
+authors = ["秋雨落 <i@rain.cx>"]
+channels = ["conda-forge", "nvidia"]
+name = "so-vits-svc"
+platforms = ["win-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = "==3.9"
+pip = "==24.0"
+vs2022_win-64 = ">=19.43.34604,<20"
